@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  cubixpert:
+    build: .
+    environment:
+      - DISPLAY=host.docker.internal:0.0  # For WSL2/XServer
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    # For Docker Desktop (Windows):
+    network_mode: bridge
+    # For WSL2:
+    # network_mode: bridge
+    tty: true
+    stdin_open: true
