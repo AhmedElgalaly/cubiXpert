@@ -1,0 +1,15 @@
+Game 1: Draw | Moves: 32 | Avg Time: 0.0608s
+Game 2: Draw | Moves: 32 | Avg Time: 0.0631s
+Game 3: Draw | Moves: 32 | Avg Time: 0.0631s
+Game 4: Draw | Moves: 32 | Avg Time: 0.0626s
+Game 5: Draw | Moves: 32 | Avg Time: 0.0612s
+Game 6: Draw | Moves: 32 | Avg Time: 0.0631s
+Game 7: Draw | Moves: 32 | Avg Time: 0.0601s
+Game 8: Draw | Moves: 32 | Avg Time: 0.0627s
+Game 9: Draw | Moves: 32 | Avg Time: 0.0627s
+Game 10: Draw | Moves: 32 | Avg Time: 0.0626s
+
+Final Results (10 games):
+AlphaBeta Wins: 0
+Win Rate: 0.0%
+Average Move Time: 0.6219s
