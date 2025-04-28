@@ -21,7 +21,7 @@ class GameGUI:
         self.WIDTH = 600
         self.HEIGHT = 800
         self.screen = pygame.display.set_mode((self.WIDTH, self.HEIGHT))
-        pygame.display.set_caption('3D Tic-Tac-Toe: Galaxy Edition')
+        pygame.display.set_caption('CubiXpert: Galaxy Edition 3D Tic-Tac-Toe')
         font_path = os.path.join(os.getcwd(), 'views/gui/assets/fonts/Consolas.ttf')
         self.font = pygame.font.SysFont(font_path, 32, bold=True)
         self.end_title_font = pygame.font.SysFont(font_path, 24, bold=True)
